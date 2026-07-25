@@ -12,6 +12,11 @@
 
 #### Outcome: Connectivity restored and ping test successful
 
+**Screenshots:**
+Broken state => Fixed state
+
+![Adapter disabled](screenshots/issue1-broken.png) ![Adapter enabled](screenshots/issue1-fixed.png)
+
 
 
 
