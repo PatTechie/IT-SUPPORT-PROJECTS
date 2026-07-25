@@ -37,3 +37,22 @@ Broken state => Fixed state
 ![Adapter disabled](screenshots/issue2-broken.png) ![Adapter enabled](screenshots/issue2-fixed.png)
 
 
+
+
+
+## ISSUE 3: USER CANNOT ACCESS FOLDER - "ACCESS DENIED ERROR" RECEIVED
+
+#### Theory: NTFS permissions incorrectly configured with Deny rule
+
+#### Test: Checked Security tab of folder and it turns out that the Deny permission is applied to user account
+
+#### Plan: Remover Deny rule and restore appropriate Allow permissions
+
+#### Fix: Edited NTFS permissions, removed Deny and granted Allow full control.
+
+#### Outcome: Permission issue resolved and Folder now accessible
+
+**Screenshots:**
+Broken state => Fixed state
+
+![Adapter disabled](screenshots/issue3-broken.png) ![Adapter enabled](screenshots/issue3-fixed.png)
