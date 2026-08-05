@@ -56,3 +56,25 @@ Broken state => Fixed state
 Broken state => Fixed state
 
 ![Adapter disabled](screenshots/issue3-broken.png) ![Adapter enabled](screenshots/issue3-fixed.png)
+
+
+
+## ISSUE 4: USER REPORTS COMPUTER IS SLOW, LOW DISK SPACE WARNING APPEARS
+
+#### Theory: Disk space is crtically low and its causing performance issues.
+
+#### Test: Checked C: drive - less than 5% free space remaining
+
+#### Plan: Identify large files and run Disk cleanup to recover space
+
+#### Fix: Removed large unnecessary files, ran Disk Cleanup utility
+
+#### Outcome: Recovered 4GB+ of disk space and good performance restored
+
+**Screenshots:**
+Broken state => Fixed state
+
+![Adapter disabled](screenshots/issue4-broken.png) ![Adapter enabled](screenshots/issue4-fixed.png)
+
+
+
